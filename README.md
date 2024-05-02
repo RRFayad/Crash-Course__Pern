@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
 
 ## Overview Diagram
 
-![Diagram](image.png)
+![Diagram](assets/image.png)
 
 - Just remembering that the Restful API is responsible for **instructing** the database about what CRUD operations should be done
 
@@ -25,3 +25,5 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
 
 - app.use(express.json()); // Gives us access to the req body
   - Since express 4.16, there's no need to install body-parser
+
+## Creating Postgres DB and Table
