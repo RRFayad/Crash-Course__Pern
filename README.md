@@ -27,3 +27,17 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
   - Since express 4.16, there's no need to install body-parser
 
 ## Creating Postgres DB and Table
+
+- Main commands:
+
+  - \l => list all database in postgresql
+  - \c => move inside a database
+  - \dt => show table in database
+  - CREATE DATABASE nameiwant; => create a database with the name I want
+  - CREATE TABLE anynameiwant; => create the table called todo
+
+- Steps:
+  - Created the database.sql file with the query
+  - Open terminal
+    - psql -U postgres
+    - Run the query in the terminal
