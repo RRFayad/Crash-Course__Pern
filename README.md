@@ -41,3 +41,11 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
   - Open terminal
     - psql -U postgres
     - Run the query in the terminal
+
+## Connect Postgres DB and Server
+
+- Create and export the pool in the db.js file
+
+## Build Routes with Posgres queries
+
+-
