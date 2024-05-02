@@ -27,6 +27,14 @@ app.post("/todos", async (req, res, next) => {
 });
 
 // get all todos
+app.get("/todos", async (req, res, next) => {
+  try {
+    const todos = await pool.query("SELECT * FROM todo ");
+    res.json(todos.rows);
+  } catch (err) {
+    console.log(err.message);
+  }
+});
 
 // get a todo
 
