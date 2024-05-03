@@ -49,4 +49,6 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
 
 ## Build Routes with Posgres queries
 
--
+- No secrets here, just check the API
+
+**Obs.:** I didn't work on the front end, as I just wanted to understand the Postgres application
