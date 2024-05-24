@@ -31,6 +31,7 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
 - Main commands:
 
   - psql -U postgres to enter in postgres
+  - \! cls => clear
   - \l => list all database in postgresql
   - \c => move inside a database
   - \dt => show table in database
